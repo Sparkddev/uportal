@@ -1,0 +1,35 @@
+body{
+  background-color: #369;
+  
+  height: 100vh;
+}
+
+.main{
+    min-height: 50vh;
+    background-color: white;
+}
+
+.contenthead{
+    text-align: right;
+    font-weight: bolder!important;
+    border-bottom: 1px solid #369;
+    color:#0e3e6c;
+    font-size:28px;
+}
+
+.keys{
+    color: #369;
+    font-size:13px;
+    text-align: right;
+}
+.label{
+    color:#0e3e6c;
+}
+
+.mybtn{
+    color: #fff;
+    background: #30ab5e linear-gradient(180deg,#4fb876,#30ab5e) repeat-x;
+    border-color: #30ab5e;
+    width:62%;
+  
+}
