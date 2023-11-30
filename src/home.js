@@ -31,8 +31,9 @@ function Home(){
     
             if(response.status == 200){
                 console.log(response.data.message);
+
+                window.location.href = 'https://userportal.vtc.net/login';
     
-                setShowError(true);
             }
           } catch (error) {
             // Handle error
